@@ -90,4 +90,4 @@ $params = @{
 
 ## Animated GIF
 
-![Animated GIF](.\vanMoofDataExporter.gif)
+![Animated GIF](vanMoofDataExporter.gif)
