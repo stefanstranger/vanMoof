@@ -84,7 +84,7 @@ $params = @{
 
 1. Copy and paste above PowerShell code and save it to file called Get-VanMoofData.ps1
 2. Open PowerShell
-3. Go to the folder where you save the Get-VanMoofData.ps1 file
+3. Go to the folder where you saved the Get-VanMoofData.ps1 file
 4. Run the Get-VanMoofData.ps1 file in PowerShell
 
 
