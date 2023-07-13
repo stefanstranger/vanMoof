@@ -10,7 +10,7 @@ And now there are some projects and people that suggest you need to export your 
 
 One of these projects is called [vanmoof-encryption-key-exporter](https://github.com/grossartig/vanmoof-encryption-key-exporter)
 
-Instead of using the tool you can do the same with some simple PowerShell REST API calls:
+Instead of using that tool you can do the same with some simple PowerShell REST API calls:
 
 ## PowerShell script
 
