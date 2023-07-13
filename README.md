@@ -6,7 +6,7 @@ Recently E-bike startup VanMoof has applied to a local court for an official sus
 
 [Van-oof! E-bike startup VanMoof, unable to pay bills, files for payment deferment in Holland](https://techcrunch.com/2023/07/12/report-vanmoof-has-filed-for-bankruptcy-protection-in-holland/)
 
-And now there are some projects that suggest you need to export your VanMoof encryption key before their servers would go offline.
+And now there are some projects and people that suggest you need to export your VanMoof encryption key before their servers would go offline.
 
 One of these projects is called [vanmoof-encryption-key-exporter](https://github.com/grossartig/vanmoof-encryption-key-exporter)
 
