@@ -87,6 +87,17 @@ $params = @{
 3. Go to the folder where you saved the Get-VanMoofData.ps1 file
 4. Run the Get-VanMoofData.ps1 file in PowerShell
 
+# Not wanting to use PowerShell?
+
+If you want to use just curl in your bash shell you can use the following commands:
+
+```bash
+username="john.doe@outlook.com"
+password="<enter your password>"
+accesstoken=$(printf '%s:%s' "$username" "$password" | base64)
+bearertoken=$(curl  -X POST 'https://my.vanmoof.com/api/v8/authenticate' --header 'Accept: */*' --header "Authorization: Basic $accesstoken" --header 'Api-Key: fcb38d47-f14b-30cf-843b-26283f6a5819' | jq -r .token)
+curl -X GET 'https://my.vanmoof.com/api/v8/getCustomerData?includeBikeDetails=' --header 'Accept: */*' --header 'Api-Key: fcb38d47-f14b-30cf-843b-26283f6a5819' --header "Authorization: Bearer $bearertoken" | jq -r .data > vanMoof.json
+```
 
 ## Animated GIF
 
